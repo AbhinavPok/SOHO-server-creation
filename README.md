@@ -1,2 +1,7 @@
-# SOHO-server-creation
-Turning an old laptop into a fully functional home server that works as both a Network Attached Storage (NAS) and a security system. This project documents the process of setting up the server, configuring network access, securing it with open-source tools, and integrating camera surveillance for home use.
+# Home Server: NAS + Security System
+
+This project demonstrates how I converted an old laptop into a fully functional server that acts as:
+- **NAS (Network Attached Storage)** for centralized file storage and backup
+- **Home Security System** with camera integration and monitoring
+
+The goal is to repurpose old hardware into a **low-cost, efficient, and secure server**, while documenting setup steps, configurations, and security best practices.
