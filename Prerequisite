@@ -9,7 +9,7 @@
   Network Interface = CAT 5e or Higher (1Gbps)
   GPU = Not requried (Intergetraed GPU), optimal if there is a GPU
   Power = UPS/ Redundant powersupply if possible.
-  Camera = CCTV.
+  Camera = CCTV with POE+
 
   What I Have (NEVER A GOOD PRACTICE TO POST YOUR HARDWARE SPECS ONLINE)
   CPU = Intel i5-3320M CPU
@@ -18,6 +18,6 @@
   Storage = 117 usable gigs 
   GPU = Intel® HD Graphics 4000
   Power = Broken power supply.
-
+  Camera = CCTV with POE+.
   Although CPU, RAM, Network Interface and GPU would be sufficiant will be enough, There will be the need for more storage and a redudant power supply.
   
