@@ -21,3 +21,13 @@
   Camera = CCTV with POE+.
   Although CPU, RAM, Network Interface and GPU would be sufficiant will be enough, There will be the need for more storage and a redudant power supply.
   
+
+  1. The two most important thing is added storage, and added redundancy 
+      a. Storage can be done by replacing the orginal drive and replacing the optical media for another drive.
+          - In this laptop, there is a latch behind the computer that will pop out once pulled.
+                
+          - There is three screws holding the internal drive.
+          - You can click on the optical media on side of computer and gentely pull it out.
+          -  While I had acess to motherboard, I cleaned it free of dust.
+        
+      b. Install another battery
