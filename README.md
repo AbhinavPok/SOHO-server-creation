@@ -5,7 +5,3 @@ This project demonstrates how I converted an old laptop into a fully functional 
 - **Home Security System** with camera integration and monitoring
 
 The goal is to repurpose old hardware into a **low-cost, efficient, and secure server**, while documenting setup steps, configurations, and security best practices.
-
-![ImageForRef1](Ref1.jpg)
-
-<img src="Ref1.jpg" width="400" height="250" alt=“Ref1” /> 
