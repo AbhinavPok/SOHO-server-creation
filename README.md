@@ -6,5 +6,4 @@ This project demonstrates how I converted an old laptop into a fully functional 
 
 The goal is to repurpose old hardware into a **low-cost, efficient, and secure server**, while documenting setup steps, configurations, and security best practices.
 
-
-    
+![ImageForRef1](Ref1.jpg)
