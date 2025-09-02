@@ -1,0 +1,16 @@
+In order to advance further, The computer needs to be functioning and booting. 
+  
+  There were one issue preventing computer from booting and one issue preventing addition of storage.
+
+  Issue --> Critical --> Sytem boot
+      1. The cpu would shut down.
+         Issues: Issue displayed | Presented in Bios | "System temperature (90D)"
+     Resolution: High Temperature| Either Fan or CPU issues
+        Method : FAN issues | Open the case --> Start the computer --> Check if the fan is spinning --> If it is, no action is needed; if not, replace the fan.
+                 CPU isses  | Open the case --> access the motherboard --> clean the dust off fan --> clean the dust off the radiator --> clean the heatsink with isopropyl 
+                              apply new thermal paste.
+  My soultion : CPU issues | I replaced the thermal paste.
+     Solution : Issue must be mitigated.
+
+  Issue --> Moderate --> Drive not reconized.
+      2. The motherboard did not accept the replacement of 
