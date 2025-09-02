@@ -3,14 +3,44 @@ In order to advance further, The computer needs to be functioning and booting.
   There were one issue preventing computer from booting and one issue preventing addition of storage.
 
   Issue --> Critical --> Sytem boot
-      1. The cpu would shut down.
-         Issues: Issue displayed | Presented in Bios | "System temperature (90D)"
-     Resolution: High Temperature| Either Fan or CPU issues
-        Method : FAN issues | Open the case --> Start the computer --> Check if the fan is spinning --> If it is, no action is needed; if not, replace the fan.
-                 CPU isses  | Open the case --> access the motherboard --> clean the dust off fan --> clean the dust off the radiator --> clean the heatsink with isopropyl 
-                              apply new thermal paste.
-  My soultion : CPU issues | I replaced the thermal paste.
-     Solution : Issue must be mitigated.
+        1. The cpu would shut down.
+           Issues: Issue displayed | Presented in Bios | "System temperature (90D)"
+       Resolution: High Temperature| Either Fan or CPU issues
+          Method : FAN issues | Open the case --> Start the computer --> Check if the fan is spinning --> If it is, no action is needed; if not, replace the fan.
+                   CPU isses  | Open the case --> access the motherboard --> clean the dust off fan --> clean the dust off the radiator --> clean the heatsink with isopropyl 
+                                apply new thermal paste.
+    My soultion : CPU issues | I replaced the thermal paste.
+       Solution : Issue must be mitigated.
+  
+    Issue --> Moderate --> Optical to SSD replacment issue
+        2. Issue : After replacing the CD/DVD drive with a 2.5" SSD in a caddy, the system failed to boot.
+   Error messages: BIOS: "Check media cable" | System: "Remove disk and other media" | Symptoms: New SSD not detected in BIOS, even though the drive worked with old SSD.
+      Resoultion : Motherboard | SSD | SATA | Power issue 
+          Method : Motherboard issue | Enter BIOS → Check storage controller settings → Confirm set to AHCI mode → Update BIOS if outdated.
+                           SSD issue | Connect SSD externally via USB → If recognized, SSD is fine → If not, SSD may be faulty.
+                          SATA issue | Open case → Ensure SSD is seated properly in the caddy → Inspect caddy for damage/incompatibility → Test with another SATA port if available.
+                         Power issue | Verify caddy provides sufficient power → Test with a different caddy model (some low-quality caddies do not supply stable power to SSDs).
+                Alternative solution | If internal replacement fails, use a USB-to-SATA adapter to run the SSD as an external drive.
+    My  Soultion : Instead of continuing with the internal caddy setup, I used a USB-to-SATA adapter to connect the SSD externally.
+ Additional step :Took the laptop to a repair shop → They confirmed the SSD itself was fine but could not get it working internally via caddy.
+                  searched for answers on Reddit and forums → No confirmed solution for this specific model.
+        Solution : Issue was avoided and replaced.
 
-  Issue --> Moderate --> Drive not reconized.
-      2. The motherboard did not accept the replacement of 
+
+                                                        The computer is booting with extra storage.
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        Downloading operating system. (another computer needed)
+        1. Pick your OS and download the iso.
+              --> I used ubuntu 
+                  Download Ubuntu [here](https://ubuntu.com/download)
+        2. Method of booting drive
+              --> USB drive (atleast 8 GB)
+        3. USB drive by itself wont boot.
+            1. Download rufus (https://rufus.ie/en/)
+            2. Select the downloded iso as a source --> pick your usb drive --> select GPT or MBR.
+                a. GPT is normally for newer computer MBR is for legacy Bios.
+                b. How to check GPT or MBR
+                    Windows | access cmd as admin --> type the following --> diskpart | list disk --> if there is a "*" its GPT, if black its MBR
+                c. Start it and let rufus do the rest.
+        4. Plug the USB drive into the computer with replaced drive and enter bios and boot from USB.
+        5. Os is installed.
