@@ -31,8 +31,8 @@ In order to advance further, The computer needs to be functioning and booting.
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         Downloading operating system. (another computer needed)
         1. Pick your OS and download the iso.
-              --> I used ubuntu 
-                  Download Ubuntu [here](https://ubuntu.com/download)
+              --> I used TrunNas 
+                  Download TrueNas [here](https://www.truenas.com/)
         2. Method of booting drive
               --> USB drive (atleast 8 GB)
         3. USB drive by itself wont boot.
