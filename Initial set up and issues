@@ -43,7 +43,8 @@ In order to advance further, The computer needs to be functioning and booting.
                     Windows | access cmd as admin --> type the following --> diskpart | list disk --> if there is a "*" its GPT, if black its MBR
                 c. Start it and let rufus do the rest.
         4. Plug the USB drive into the computer with replaced drive and enter bios and boot from USB.
-        5. Os is installed.
+                                                
+                                              Os is installed.
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 External SSD instalation
   1. Connect the SSD
@@ -74,3 +75,6 @@ External SSD instalation
       Open File Explorer, go to This PC, and you should see your SSD with the new drive letter.
       Right-click → Properties if you want to double-check capacity and file system.
   
+
+                      SSD is formatted and Installed
+              
