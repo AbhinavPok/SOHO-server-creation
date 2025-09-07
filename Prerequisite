@@ -10,6 +10,7 @@
   GPU = Not requried (Intergetraed GPU), optimal if there is a GPU
   Power = UPS/ Redundant powersupply if possible.
   Camera = CCTV with POE+
+  Documentation = Pick your documnetation. Logical and Physical recommended.
 
   What I Have (NEVER A GOOD PRACTICE TO POST YOUR HARDWARE SPECS ONLINE)
   CPU = Intel i5-3320M CPU
@@ -19,6 +20,8 @@
   GPU = Intel® HD Graphics 4000
   Power = Broken power supply.
   Camera = CCTV with POE+.
+  Documentation = Cisco packet tracer
+
   Although CPU, RAM, Network Interface and GPU would be sufficiant will be enough, There will be the need for more storage,stability, and maintaince
   
 
