@@ -1,1 +1,18 @@
+Once TrueNAS is installed, simply restart your PC. The system will automatically follow the installation process and complete the setup on its own.
 
+It is also very imporant to document, all your configuration and details. I have listed a check list below for refrence.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Access Your Router
+  Open a browser and type your router’s gateway address (usually 10.0.0.1).
+  Log in with your admin username and password.
+Find Your TrueNAS Device
+  Look in the DHCP settings or connected devices list.
+  Find the entry for your TrueNAS server.
+  Set a Static IP
+  Switch the TrueNAS IP from dynamic (DHCP) to static.
+  choose a custom IP address and subnet that fits your network.
+Document
+  Make a note of the IP address, subnet, and MAC address so you have it for later.
+  Update your network diagram if needed.
