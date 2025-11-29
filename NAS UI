@@ -1,1 +1,42 @@
 
+Log into NAS.
+  Username is typically root or truenas_admin
+  password is the one you created before.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Once logged on
+  There are list of tabs typically on the lefthand side
+    Dashboard or the home screen : It shows the activities and the system usages. It is important to closely monitor the dashboard because it provides critical indicators if potential issues begin to develop.
+                         Storage : It provides an overview of the detected disks, configured storage pools,encryption and current RAID configuration.
+                          Shares : It give you the platfrom to share files with another devices by creating a network folder.
+                 Data Protection : It gives you the platfrom to backup datas.This is important because it helps protect integrity and availability, but not confidentiality, which is handled under the Storage section.
+                         Network : It gives you the platform to troubleshoot or modify your network settings such as VLANS, DNS , IPS and Ethernet
+                     Credentials : It gives you the platform to implement least priveledge principle by controlling access of certian files based on permissions.
+                 Virtualizations : It gives you the platform to virtulaized your NAS.
+                            Apps : It give you the platform to install apps directly to NAS, such as
+                                    () Nextcloud for file share 
+                                    () Dockers and Kubernetes
+                                    () Plex for media managment and many more.
+                        Reporting : It is similar to log files in desktop and servers, it show both current and previous system usage and activites. The cuurrent usages is shown in desktop from here.
+                  System Settings : It gives you platform to make changes, accessibility settings, services management(some of these can be found in networks aswell), and most imporatantly the UPDATES.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Creating a drive and shares
+  Once logged on you must create a pool, to configure the disks.
+      Pool can be created in STORAGE -> Pool Manager -> Create a name for the drive.
+      This is also where you can implement your raid solutions.
+            Stripe : Similar to RAID 0. This is for speed only, if one drive fails, data is lost
+            Mirror : Similar to RAID 1. This the for mirror and speed. Two drives = 1 big drive. They are essentially duplicates of each other.
+            RaidZ1 : Similar to RAID 5. This the Stripe + Parity. This requires atleast three drives, where on is parity (safe checksum) to prevent data lost if one of the drives fails.
+            RaidZ2 : This is similar to RAID 5, where instead of 1 parity there is two parity drives. It is used in very imporant large datasets.
+      Create a user
+          User can be created in Credentials -> Add users
+              You can create Root users, User ID or groups , Directory and permissions.
+      Share it to the network.
+            Once users are created, navigate to Shares -> (SMB for Windows, NFS for Unix, iSCSI for sharing virtual drives over networks)
+            Set the path for the user, then start the service.
+      Make it accessable to user depending on thier permissions.
+            Storage -> edit ACL -> Permission Types.
+      NAS is up and running.
+            
+
+  
+  
