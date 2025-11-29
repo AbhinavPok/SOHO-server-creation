@@ -35,7 +35,7 @@ Creating a drive and shares
             Set the path for the user, then start the service.
       Make it accessable to user depending on thier permissions.
             Storage -> edit ACL -> Permission Types.
-      NAS is up and running.
+      NAS is now running accessible via shares from your local computer connected to the same networks.
             
 
   
