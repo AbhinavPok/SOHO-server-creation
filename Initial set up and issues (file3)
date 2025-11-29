@@ -1,16 +1,16 @@
-In order to advance further, The computer needs to be functioning and booting. 
+In order to advance further, The computer needs to be booting. 
   
-  There were one issue preventing computer from booting and one issue preventing addition of storage.
+  There was one issue preventing computer from booting and another issue preventing addition of a storage.
 
   Issue --> Critical --> Sytem boot
         1. The cpu would shut down.
-           Issues: Issue displayed | Presented in Bios | "System temperature (90D)"
+           Issues: Issue was visual | Issue was checked in Bios | "System temperature (90D)"
        Resolution: High Temperature| Either Fan or CPU issues
           Method : FAN issues | Open the case --> Start the computer --> Check if the fan is spinning --> If it is, no action is needed; if not, replace the fan.
                    CPU isses  | Open the case --> access the motherboard --> clean the dust off fan --> clean the dust off the radiator --> clean the heatsink with isopropyl 
                                 apply new thermal paste.
     My soultion : CPU issues | I replaced the thermal paste.
-       Solution : Issue must be mitigated.
+       Solution : Issue was mitigated.
   
     Issue --> Moderate --> Optical to SSD replacment issue
         2. Issue : After replacing the CD/DVD drive with a 2.5" SSD in a caddy, the system failed to boot.
@@ -31,7 +31,7 @@ In order to advance further, The computer needs to be functioning and booting.
         XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         Downloading operating system. (another computer needed)
         1. Pick your OS and download the iso.
-              --> I used TrunNas 
+              --> I used TrueNas 
                   Download TrueNas [here](https://www.truenas.com/)
         2. Method of booting drive
               --> USB drive (atleast 8 GB)
