@@ -1,0 +1,18 @@
+Recommended settings
+
+1. iSCIS implmentation: iSCIS is a protocol that makes the local device implement NAS server as local drive.
+  Navigate to STORAGE -> drive previously created -> settings -> Zvol(virtual hardrive) -> add the name -> virtual storage.
+  Navigates to Shares -> Sharing -> ISCIS -> ISCIS Wizard -> Fill the information such as name, sharing platform and devices.
+  Start the ISCIS -> Connect it via windows built in protocol for ISCIS. -> There will be a local drive connected it to NAS.
+
+2.Encryptions : True Nas also gives the ability to encrypt storages. It is very important to use encryptions if truly needed, loss of the key or passphrase will lead to loss of all datas.
+              Navigate to STORAGE -> drive previously created -> settings -> enable encryptions -> Passphrase or Key -> save settings.
+          
+          **The use of Password manager is highly recommended.**
+  Export your Encryptions key.
+            Navigate to STORAGE -> previously created drive -> settings -> Export Encryption key -> Save it in your prefrence media
+          **Always keep the keys secure and redundant.**
+
+3. SMART Tests. : Self Monitoring, Analysis and Reporting Technology. It is a built in system that checks for drives health.
+                          **It will warn the user BEFORE the drive fails**
+                    Data Protection -> S.M.A.R.T. tests -> Schedule it based on users prefrence.
